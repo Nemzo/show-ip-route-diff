@@ -7,17 +7,18 @@ A smart, CLI-based `show ip route` diff tool designed specifically for network e
 When comparing routing tables, standard diff tools often flag "uptime changes" (e.g., `00:15:33` to `00:15:38`) as differences, burying actual topological changes. **SirDiff** automatically ignores these time-based fluctuations, translates IP addresses into readable hostnames, and highlights exactly what changed.  
 ## ✨ Features / 特徴
 
-- **🕒 Uptime Masking / 経過時間の自動スキップ**: Automatically ignores routing uptime changes. / `00:12:34` や `1w2d` といった時刻の変動を差分から自動的に除外します。
-- **🏷️ Hostname Translation / ホスト名への自動変換**: Converts raw IP addresses into intuitive hostnames based on `hosts.json`. / 無機質なIPアドレスを直感的なホスト名（例: `192.168.1.1[Core-SW-A]`）に変換して比較します。
-- **✂️ Smart Abbreviations / インターフェース名の短縮**: Shortens verbose interface names (e.g., `GigabitEthernet` -> `GE`) for better readability. / 視認性を高めるための自動フォーマットを行います。
-- **👀 Multiple Display Modes / 多彩な表示モード**: 
-  - Side-by-Side (Default) / 左右分割表示（デフォルト）
-  - Unified vertical format (`-u`) / 上下分割のUnifiedフォーマット
-  - Diff-only extraction (`-d`) / 差分行のみ抽出
-  - Inline character-level highlighting (`-i`) / 変更された文字（単語）のみ色付け
-- **📊 Markdown Support / Markdown出力対応**: Generates Markdown-formatted tables/diffs ready for your Wiki or Jira. / WikiやJiraにそのまま貼り付けられるMarkdown形式での出力に対応しています。
-## 🚀 Installation / インストール
+- **🕒 Uptime Masking / Automatically ignores routing uptime changes. 
+- **🏷️ Hostname Translation /  Converts raw IP addresses into intuitive hostnames based on `hosts.json`. 
+- **✂️ Smart Abbreviations / Shortens verbose interface names (e.g., `GigabitEthernet` -> `GE`) for better readability. 
+- **👀 Multiple Display Modes  
+  - Side-by-Side (Default) 
+  - Unified vertical format (`-u`)
+  - Diff-only extraction (`-d`) 
+  - Inline character-level highlighting (`-i`)
+- **📊 Markdown Support / Markdown出力対応**: Generates Markdown-formatted tables/diffs ready for your Wiki 
+---
 
+## 🚀 Installation / インストール
 Requires Python 3.x. No additional packages needed (standard libraries only)
 
 ```bash
