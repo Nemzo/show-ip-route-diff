@@ -18,11 +18,11 @@ When comparing routing tables, standard diff tools often flag "uptime changes" (
 - **📊 Markdown Support / Markdown出力対応**: Generates Markdown-formatted tables/diffs ready for your Wiki 
 ---
 
-## 🚀 Installation / インストール
+## 🚀 Installation
 Requires Python 3.x. No additional packages needed (standard libraries only)
 
 ```bash
-# 1. Clone the repository / リポジトリをクローン
+# 1. Clone the repository
 git clone https://github.com/[YourUsername]/show-ip-route-diff.git
 cd show-ip-route-diff
 ```
