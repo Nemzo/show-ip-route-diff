@@ -23,7 +23,7 @@ Requires Python 3.x. No additional packages needed (standard libraries only)
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/[YourUsername]/show-ip-route-diff.git
+git clone https://github.com/Nemzo/show-ip-route-diff.git
 cd show-ip-route-diff
 ```
 
