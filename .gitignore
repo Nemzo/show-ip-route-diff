@@ -1,11 +1,11 @@
-# OSのシステムファイル
+# OS
 .DS_Store
 Thumbs.db
 
-# Pythonのキャッシュ
+# Python
 __pycache__/
 *.pyc
 
-# ネットワーク機器の生ログなど（誤アップロード防止）
+# log
 *.log
 
